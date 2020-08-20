@@ -4,6 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lyrics Search App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>LyricsSearch</h1>
+      <form id="form">
+        <input
+          type="text"
+          placeholder="Enter artist or song name...."
+          id="search"
+        />
+        <button>Search</button>
+      </form>
+    </header>
+
+    <div id="result" class="container">
+      <p>Results will be displayed here</p>
+    </div>
+
+    <div id="more" class="container centered"></div>
+  </body>
 </html>

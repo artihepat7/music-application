@@ -56,4 +56,55 @@ form input {
   width: 100%;
 }
 form button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: #e056fd;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  padding: 13px 30px;
+}
+.container {
+  margin: 30px auto;
+  width: 500px;
+  max-width: 100%;
+}
+.container h2 {
+  font-weight: 300;
+}
+.container p {
+  text-align: center;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+}
+.centered button {
+  transform: scale(1.3);
+  margin: 15px;
+}
+.centered button:active {
+  transform: scale(0.98);
+}
+/* result container by javascript */
+.btn {
+  border: 0;
+  background: #8d56fd;
+  border-radius: 10px;
+  padding: 4px 10px;
+  color: #fff;
+}
+
+ul.songs {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.songs li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
 }
